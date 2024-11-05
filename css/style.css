@@ -1,0 +1,15 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: #066963;
+}
+#recipe:hover img {
+    transform: scale(1.1, 1.1);
+}
+#recipe img{
+    transition: transform 1s;
+}
