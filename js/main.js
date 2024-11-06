@@ -14,7 +14,6 @@ function getData(type) {
         if (myhttp.readyState == 4) {
             let data = JSON.parse(myhttp.response);
             allData = data.recipes;
-            console.log(allData);
             display();
 
 
